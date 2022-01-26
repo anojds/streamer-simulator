@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>streamer Simulator</title>
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-59H5P0V44Y"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-59H5P0V44Y');
+</script>
+    <link rel="shortcut icon" href="/asset/img/favicon.ico" type="image/x-icon">
+<link rel="icon" href="asset\img\favicon.ico" type="image/x-icon">
+    <style>
+        .Button {
+            background-color:#2563eb;
+            color:#ffffff;
+            display: inline-block;
+            padding-top: 20px;
+            padding-bottom: 20px;
+            width: 70%;
+            border-radius: 5px;
+            font-weight: 700;
+            font-size: 18px;
+            box-shadow: 0 1px 20px #2563eb;
+        }
+        .Button:hover {
+            cursor: pointer;
+        }
+        .icon {
+            width:250px;
+        }
+        .icon:hover {
+            cursor: pointer;
+        }
+    </style>
+    
+</head>
+<body id="body" style="overflow: scroll;background-color:rgb(245, 248, 255);overflow-x: hidden;">
+    <div onclick="home()" style="text-align:center;width: 100%;height: 100%;align-items: center;vertical-align: middle;">
+        <div>
+        <img id="icon" class="icon" onClick="window.location.reload()" src="asset\img\logo_b.png">
+    </div>
+        <div style="height: 100px"> </div>
+        <p style="margin: 0px;font-weight: 900;font-size: 60px;" id="text">여기서</p>
+        <span style="font-weight: 900;font-size: 80px;color :#2563eb;" id="streamer">스트리머</span><span style="font-weight: 900;font-size: 50px;" id="text2">가</span>
+        <p style="margin: 0px;font-weight: 900;font-size: 60px;" id="text3">되어 보세요</p>
+        <div style="height: 80px"> </div>
+        <a href="./setting.html">
+        <div class="Button">방송 준비하기 !</div>
+        </a>
+<p> </p>
+        <div style="height: 80px"> </div>
+        <div style="height: 100%;display: flex;flex-direction: column;align-items: center;vertical-align: middle;">
+        <p style="font-weight: 900;font-size: 30px;">댓글 💬</p>
+        <div id="disqus_thread" style="width:90%;padding: 20px;border-radius:10px;box-shadow: 0 50px 100px -20px rgba(50,50,93,.25),0 30px 60px -30px rgba(0,0,0,.3),inset 0 -2px 6px 0 rgba(10,37,64,.35);"></div>
+        <p> </p>
+<script>
+    (function() { 
+    var d = document, s = d.createElement('script');
+    s.src = 'https://streamersimulator.disqus.com/embed.js';
+    s.setAttribute('data-timestamp', +new Date());
+    (d.head || d.body).appendChild(s);
+    })();            
+    function home() {
+        location.href="../index.html"
+    }
+</script>
+
+    </div>
+    <script type="text/javascript" src="thema.js"></script>
+
+</body>
+</html>
